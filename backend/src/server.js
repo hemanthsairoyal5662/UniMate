@@ -12,6 +12,7 @@ import userRoutes from './routes/userRoutes.js';
 import listingRoutes from './routes/listingRoutes.js';
 import serviceRoutes from './routes/serviceRoutes.js';
 import feedRoutes from './routes/feedRoutes.js';
+import chatRoutes from './routes/chatRoutes.js';
 
 // Load environment variables
 dotenv.config();
@@ -65,6 +66,7 @@ app.use('/api/users', userRoutes);
 app.use('/api/listings', listingRoutes);
 app.use('/api/services', serviceRoutes);
 app.use('/api/feed', feedRoutes);
+app.use('/api/chats', chatRoutes);
 
 // Socket.IO connection handling
 io.on('connection', (socket) => {
