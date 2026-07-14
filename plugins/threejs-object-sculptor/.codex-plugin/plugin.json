@@ -1,0 +1,10 @@
+{
+  "name": "threejs-object-sculptor",
+  "version": "0.1.0",
+  "description": "Local workflow notes for sculpting reference objects as procedural Three.js models.",
+  "interface": {
+    "displayName": "Three.js Object Sculptor",
+    "description": "Guides code-only Three.js reconstruction of objects from visual references.",
+    "icon": "Box"
+  }
+}
